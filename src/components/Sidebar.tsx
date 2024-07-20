@@ -10,11 +10,11 @@ function Sidebar() {
   return (
     <>
       <div className="w-[15vw] bg-slate-600 min-h-[100vh] text-white border-r fixed ">
-        {/* <div className="grid justify-center xl:mb-3">
-          <a href='/demo'>
-            <img src="/assets/logo.png" className="w-[140px]" alt="" />
+        <div className="grid justify-center xl:my-7">
+          <a href='/'>
+            <img src="vite.svg" className="w-[140px]" alt="" />
           </a>
-        </div> */}
+        </div>
         <div className="xl:pl-10 pl-5">
           <ul className='grid grid-cols-1'>
             <li>

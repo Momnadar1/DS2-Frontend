@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Demo from "./pages/Demo";
 import Layout from "./pages/Layout";
 import Timer from "./pages/Timer";
+import Kernel from "./pages/Kernel";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route element={<Demo />} index />
           <Route path="/" element={<Layout/>}>
             <Route element={<Timer />} path="timer" />
+            <Route element={<Kernel />} path="kernel" />
           </Route>
         </Routes>
       </BrowserRouter>
